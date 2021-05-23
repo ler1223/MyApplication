@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="loc">Поиск</string>
+    <string name="poisk">Найти</string>
+    <string name="text1.l.1">Введите название препарата</string>
+    <string name="text1.1.2">Например но-шпа, супрастин</string>
+    <string name="Back">Назад</string>
+    <string name="Dom">К поиску</string>
+    <string name="telefon">+79204535979</string>
+    <string name="price">цена</string>
+    <string name="Name_Form">название препарата и форма выпуска</string>
+    <string name="telephone">телефон</string>
+    <string name="address">Название и адрес аптеки</string>
+</resources>

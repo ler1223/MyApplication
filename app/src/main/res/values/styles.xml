@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">#B1E0E6</item>
+        <item name="android:fastScrollEnabled">true</item>
+    </style>
+</resources>

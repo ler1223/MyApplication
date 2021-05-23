@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="600px"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name_apteka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp"
+                android:textColor="@color/blackw"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/price_apteka"
+            android:layout_width="180px"
+            android:layout_height="match_parent"
+            android:text="@string/price"
+            android:gravity="center"
+            android:textColor="@color/blackw"/>
+
+        <TextView
+            android:id="@+id/telefon"
+            android:layout_width="260px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/telefon"
+            android:textColor="@color/blackw"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
